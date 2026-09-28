@@ -1,0 +1,30 @@
+body {
+    background-color: #f7ecc3;
+    margin: 0;
+}
+h1 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    color: #b05825;
+    background-color: #b8614d;
+    padding: 30px;
+    -webkit-text-stroke: 0.25px #f7ecc3;
+}
+ul {
+    width: fit-content;
+    margin: 0 auto;
+}
+li {
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    
+}
+a {
+    color: #c97b06;
+}
+li::marker {
+    color: #fc7b03;
+    
+}
