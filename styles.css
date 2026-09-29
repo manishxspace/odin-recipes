@@ -2,7 +2,7 @@ body {
     background-color: #f7ecc3;
     margin: 0;
 }
-h1 {
+.homepage h1 {
     text-align: center;
     font-family: Arial, sans-serif;
     font-size: 40px;
@@ -11,8 +11,28 @@ h1 {
     padding: 30px;
     -webkit-text-stroke: 0.25px #f7ecc3;
 }
-ul {
+.recipe-page h1 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    color: #b05825;
+    background-color: #b8614d;
+    padding: 30px;
+    -webkit-text-stroke: 0.25px #f7ecc3;
+}
+h2 {
+    text-align: left;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    color: #b05825;
+    margin: 10px;
+}
+.homepage ul {
     width: fit-content;
+    margin: 0 auto;
+}
+.recipe-page ul {
+    
     margin: 0 auto;
 }
 li {
@@ -27,4 +47,20 @@ a {
 li::marker {
     color: #fc7b03;
     
+}
+p {
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+}
+img {
+    display: block;
+    margin: 40px auto;
+    border: 2px;
+    border-radius: 5px;
+}
+.home {
+    margin: 20px;
+    font-size: medium;
+    color: darkslategray;
 }
